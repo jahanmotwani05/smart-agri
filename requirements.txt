@@ -1,6 +1,5 @@
 streamlit==1.22.0
-numpy>=1.26.0,<2.0.0  # Update to a version compatible with TensorFlow
-tensorflow==2.17.0
-mangum  # Ensure this is included for AWS Lambda compatibility
-pillow  # Required for image processing
-keras  # If you're using Keras for model loading
+numpy>=1.26.0,<2.0.0
+tensorflow==2.17.0  # Use TensorFlow Keras
+mangum
+pillow
