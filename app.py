@@ -3,7 +3,6 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 import io
-import tensorflow as tf  # Ensure TensorFlow is imported
 
 # Load the trained model using caching
 @st.cache_resource
