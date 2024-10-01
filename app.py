@@ -11,7 +11,7 @@ def load_model_cache():
     return load_model('plant_disease_model.h5')
 
 # Use the cached model
-model = load_model_cache()
+  model = keras.models.load_model('your_model.h5', custom_objects={'SparseCategoricalCrossentropy': keras.losses.SparseCategoricalCrossentropy})
 
 # Define the class names
 class_names = [
